@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{f064183f-d9d0-4bb1-bb40-cc91c4dfd3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{9006bb82-2e2a-4d36-baba-a5d6f5e4117c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design">
+      <UniqueIdentifier>{97ec9a39-bdbe-409c-9d36-d370c52d17c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager">
+      <UniqueIdentifier>{201c87d0-a6b6-4322-9177-40e023bac223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj">
+      <UniqueIdentifier>{126851f1-96f9-4477-b1a0-7db96187011e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Logo">
+      <UniqueIdentifier>{f9dff53d-56e7-485d-9608-a23de83d5cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\00. TextureMgr">
+      <UniqueIdentifier>{f433d179-5218-4e0b-9622-cb630806c996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Etc">
+      <UniqueIdentifier>{916e57f5-8745-4ad5-bf14-e4c06f1c26e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Etc\00. Texture">
+      <UniqueIdentifier>{64108003-0826-4359-96a3-85b2d8b332ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Etc\00. Texture\SingleTexture">
+      <UniqueIdentifier>{b583f4d0-5ccf-4503-bae2-a450d08f0053}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Etc\00. Texture\MultiTexture">
+      <UniqueIdentifier>{4db8869c-705f-42a7-b64c-43a06ec3efcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\01. GraphicDev">
+      <UniqueIdentifier>{23f526b8-248d-44d8-9943-3842b4395e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\03. ObjMgr">
+      <UniqueIdentifier>{12c704d9-fe62-4d6e-98ab-67eb4feaae92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\05. TimeMgr">
+      <UniqueIdentifier>{1f169f9d-143b-4b86-8d0a-eefebea7bfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\07. AStar">
+      <UniqueIdentifier>{8624008c-5399-4aa5-ab7c-10b853005d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\02. KeyMgr">
+      <UniqueIdentifier>{096ba6e1-32db-4d2f-88be-d76875d0d88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\04. SceneMgr">
+      <UniqueIdentifier>{a36b47e9-9e26-448e-a153-94b7455f1030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design\00. Factory">
+      <UniqueIdentifier>{01ab9dc1-422f-4639-919e-216eebe25ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Etc\01. FileInfo">
+      <UniqueIdentifier>{df531bcb-6dce-4fe8-a303-e0b7b0a131cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\00. Back">
+      <UniqueIdentifier>{1af9624c-088f-4e74-8bad-14a1e415de86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\02. Mouse">
+      <UniqueIdentifier>{0ef79c88-cdcb-4e94-8d1b-ac589a7d9658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03. Gate">
+      <UniqueIdentifier>{f5bad24b-7f06-4cf9-a8d2-88d193e7e968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\08. CollisionMgr">
+      <UniqueIdentifier>{cf3c07bb-8cb7-4efc-8e5a-3ab09a2c96ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design\01. Observer">
+      <UniqueIdentifier>{7f52fc95-0b34-496d-9960-83d330f5d3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design\01. Observer\00. Subject">
+      <UniqueIdentifier>{197fb3f6-dcee-412b-be69-3cd2567e3951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design\01. Observer\00. Subject\Manager">
+      <UniqueIdentifier>{410d86ea-cab2-4c4c-bb84-5ce5a57ff950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Design\01. Observer\01. UIObserver">
+      <UniqueIdentifier>{8168b2e9-8e8e-4de8-b027-bef9586dc6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\09. SoundMgr">
+      <UniqueIdentifier>{a3eb81b7-0760-450a-8373-d392906334a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\10. ItemMgr">
+      <UniqueIdentifier>{91dadc19-54ee-48eb-8d44-9fbfd867168b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Stage">
+      <UniqueIdentifier>{f52ba280-272f-4cfa-a659-41fa59cbb96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{953a0b7d-4861-43d6-9667-257085c56335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. MainMenu">
+      <UniqueIdentifier>{d1eb5b97-94e4-4306-be41-ecf5a5cb3d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\01. BattleUnit">
+      <UniqueIdentifier>{e1827779-9da2-4a73-a5a2-cc7d3ba5aaa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\01. BattleUnit\00. Player">
+      <UniqueIdentifier>{1f79e123-f3c6-4298-9860-40ff9d4b4b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\01. BattleUnit\00. Player\00. Weapon">
+      <UniqueIdentifier>{1853c085-d155-49cd-a4f8-3225e367f16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\01. BattleUnit\01. Monster">
+      <UniqueIdentifier>{6b86908b-ac0a-4409-92f6-daef83803da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\01. BattleUnit\01. Monster\00. Jelly">
+      <UniqueIdentifier>{10e2e065-0841-452c-b0f3-c5176706b9c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\04. NPC">
+      <UniqueIdentifier>{43849601-1dd2-4415-a247-be78b3ab0a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\05. Item">
+      <UniqueIdentifier>{4f0da027-3e18-4f73-af33-df852aaa0dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI">
+      <UniqueIdentifier>{9c2ce0e8-ec08-40fe-b4d3-604038b00c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\00. LogoButton">
+      <UniqueIdentifier>{4cb9cd60-a999-42c0-a023-088a6ada08d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\00. MiniGauge">
+      <UniqueIdentifier>{5baa5474-6cbb-4fbe-8648-488060166e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\02. Gauge">
+      <UniqueIdentifier>{8e9a47b7-a574-40ca-86aa-8225cb28516e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\04. MenuUI">
+      <UniqueIdentifier>{cd1e7f75-fe1f-40ee-b2ab-244090ebd3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\05. Chat">
+      <UniqueIdentifier>{7a155cee-97c3-402c-9d45-3ef5005a48c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\06. WndUI">
+      <UniqueIdentifier>{84286e5c-59f1-4453-a67a-7df07141d2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\06. WndUI\01. EquipWnd">
+      <UniqueIdentifier>{a27785c6-b8bb-447a-9e1e-72be9573ffdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\06. WndUI\02. InvenWnd">
+      <UniqueIdentifier>{1d4dc8b2-2a2f-4833-803b-73c996fd7a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\06. WndUI\03. SkillWnd">
+      <UniqueIdentifier>{cb34d986-593c-4643-be7f-48b88c6e8453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\06. WndUI\00. StatusWnd">
+      <UniqueIdentifier>{4fcf01c4-9cd8-4c16-a8b6-9b0ae7eb1b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\06. WndUI\04. ShopWnd">
+      <UniqueIdentifier>{40c441a7-67de-4c9a-bf95-d75333613182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\07. Damage">
+      <UniqueIdentifier>{37aa3408-7766-46da-b4c9-40f584747fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\07, Effect">
+      <UniqueIdentifier>{2d555da0-6018-4502-b480-60f6efa8af5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\07, Effect\PotionEffect">
+      <UniqueIdentifier>{3cc8db6e-e99b-48d3-8f02-daadbf689622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\07, Effect\Skill">
+      <UniqueIdentifier>{390dd974-b0ad-47b1-8fb4-9a50e369def4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\08. Skill">
+      <UniqueIdentifier>{c3474d2a-4c26-4052-a65b-7e3cd82a642e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\01. BattleUnit\01. Monster\02. BlueWolf">
+      <UniqueIdentifier>{e24d15bb-ee13-46b1-99e4-ecb471c02212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Stage\00. Town1">
+      <UniqueIdentifier>{f74eac5e-3601-4837-9422-00c6ada3089a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Stage\01. Store0">
+      <UniqueIdentifier>{facf4c7f-5136-4e01-abb9-94d416ed38bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Stage\02. Store1">
+      <UniqueIdentifier>{365cff24-de50-41bf-b42b-23b27b346bd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Stage\03. Store2">
+      <UniqueIdentifier>{c68754d0-08f0-4646-ad34-bdaf800deb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Stage\04. Field0">
+      <UniqueIdentifier>{2fc00c04-4720-4f85-8b43-536c4556251a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. Stage\05. Field3">
+      <UniqueIdentifier>{715fa87a-56eb-478a-ac2a-b67e4fdc6713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\06. WndUI\05. EventWnd">
+      <UniqueIdentifier>{21f0af69-f3fe-467a-aec5-75b9bbad2fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\11. MapMgr">
+      <UniqueIdentifier>{f67a0911-6b75-4e1c-a614-baa0ab9f2df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\02. KeyMgr2">
+      <UniqueIdentifier>{1f189c05-f671-4bd1-8c03-dbffcd191dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\09. Etc">
+      <UniqueIdentifier>{86d5f10a-038a-4544-b3d2-464632153760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\07, Effect\CoolTime">
+      <UniqueIdentifier>{affe1436-7bad-4e26-8c38-d5b575919f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\06. UI\03. QuickSlot">
+      <UniqueIdentifier>{29e36b03-2206-47c1-aaaf-e5d1b398bb8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>05. Etc\00. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>03. Manager\00. TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>05. Etc\00. Texture\MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>05. Etc\00. Texture\SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicDev.h">
+      <Filter>03. Manager\01. GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>03. Manager\05. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03. Manager\04. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03. Manager\03. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Astar.h">
+      <Filter>03. Manager\07. AStar</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>04. Design\00. Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo_Client.h" />
+    <ClInclude Include="Back.h">
+      <Filter>02. Obj\00. Back</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>02. Obj\02. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02. Obj\01. BattleUnit\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>02. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>02. Obj\06. UI\00. LogoButton</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>03. Manager\08. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>04. Design\01. Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSubject.h">
+      <Filter>04. Design\01. Observer\00. Subject\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>04. Design\01. Observer\00. Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObserver.h">
+      <Filter>04. Design\01. Observer\01. UIObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.h">
+      <Filter>02. Obj\06. UI\00. MiniGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="MPBar.h">
+      <Filter>02. Obj\06. UI\00. MiniGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Gauge.h">
+      <Filter>02. Obj\06. UI\02. Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat.h">
+      <Filter>02. Obj\06. UI\05. Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuUI.h">
+      <Filter>02. Obj\06. UI\04. MenuUI</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSlot.h">
+      <Filter>02. Obj\06. UI\03. QuickSlot</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>02. Obj\05. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="WndUI.h">
+      <Filter>02. Obj\06. UI\06. WndUI</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipWnd.h">
+      <Filter>02. Obj\06. UI\06. WndUI\01. EquipWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="InvenWnd.h">
+      <Filter>02. Obj\06. UI\06. WndUI\02. InvenWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillWnd.h">
+      <Filter>02. Obj\06. UI\06. WndUI\03. SkillWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusWnd.h">
+      <Filter>02. Obj\06. UI\06. WndUI\00. StatusWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03. Manager\02. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>03. Manager\09. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>02. Obj\04. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopWnd.h">
+      <Filter>02. Obj\06. UI\06. WndUI\04. ShopWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>02. Obj\01. BattleUnit\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>02. Obj\03. Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="Jelly.h">
+      <Filter>02. Obj\01. BattleUnit\01. Monster\00. Jelly</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>02. Obj\06. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Damage.h">
+      <Filter>02. Obj\06. UI\07. Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>02. Obj\01. BattleUnit\00. Player\00. Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>02. Obj\05. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>02. Obj\05. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMgr.h">
+      <Filter>03. Manager\10. ItemMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>02. Obj\07, Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="PotionEffect.h">
+      <Filter>02. Obj\07, Effect\PotionEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillIcon.h">
+      <Filter>02. Obj\05. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>02. Obj\08. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectExtinction.h">
+      <Filter>02. Obj\07, Effect\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectBuff.h">
+      <Filter>02. Obj\07, Effect\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>01. Scene\01. MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleUnit.h">
+      <Filter>02. Obj\01. BattleUnit</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterHPBar.h">
+      <Filter>02. Obj\06. UI\00. MiniGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Town1.h">
+      <Filter>01. Scene\02. Stage\00. Town1</Filter>
+    </ClInclude>
+    <ClInclude Include="Field0.h">
+      <Filter>01. Scene\02. Stage\04. Field0</Filter>
+    </ClInclude>
+    <ClInclude Include="Store0.h">
+      <Filter>01. Scene\02. Stage\01. Store0</Filter>
+    </ClInclude>
+    <ClInclude Include="Store1.h">
+      <Filter>01. Scene\02. Stage\02. Store1</Filter>
+    </ClInclude>
+    <ClInclude Include="Store2.h">
+      <Filter>01. Scene\02. Stage\03. Store2</Filter>
+    </ClInclude>
+    <ClInclude Include="Field3.h">
+      <Filter>01. Scene\02. Stage\05. Field3</Filter>
+    </ClInclude>
+    <ClInclude Include="EventWnd.h">
+      <Filter>02. Obj\06. UI\06. WndUI\05. EventWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMgr.h">
+      <Filter>03. Manager\11. MapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr2.h">
+      <Filter>03. Manager\02. KeyMgr2</Filter>
+    </ClInclude>
+    <ClInclude Include="Etc.h">
+      <Filter>02. Obj\09. Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CoolEffect.h">
+      <Filter>02. Obj\07, Effect\CoolTime</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueWolf.h">
+      <Filter>02. Obj\01. BattleUnit\01. Monster\02. BlueWolf</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>05. Etc\00. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>03. Manager\00. TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>05. Etc\00. Texture\MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>05. Etc\00. Texture\SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicDev.cpp">
+      <Filter>03. Manager\01. GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>03. Manager\05. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03. Manager\04. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03. Manager\03. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar.cpp">
+      <Filter>03. Manager\07. AStar</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo_Client.cpp" />
+    <ClCompile Include="Back.cpp">
+      <Filter>02. Obj\00. Back</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02. Obj\01. BattleUnit\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>02. Obj\02. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>02. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>02. Obj\06. UI\00. LogoButton</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>03. Manager\08. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>04. Design\01. Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSubject.cpp">
+      <Filter>04. Design\01. Observer\00. Subject\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>04. Design\01. Observer\00. Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObserver.cpp">
+      <Filter>04. Design\01. Observer\01. UIObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>02. Obj\06. UI\00. MiniGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="MPBar.cpp">
+      <Filter>02. Obj\06. UI\00. MiniGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauge.cpp">
+      <Filter>02. Obj\06. UI\02. Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat.cpp">
+      <Filter>02. Obj\06. UI\05. Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuUI.cpp">
+      <Filter>02. Obj\06. UI\04. MenuUI</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSlot.cpp">
+      <Filter>02. Obj\06. UI\03. QuickSlot</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>02. Obj\05. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="WndUI.cpp">
+      <Filter>02. Obj\06. UI\06. WndUI</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipWnd.cpp">
+      <Filter>02. Obj\06. UI\06. WndUI\01. EquipWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="InvenWnd.cpp">
+      <Filter>02. Obj\06. UI\06. WndUI\02. InvenWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillWnd.cpp">
+      <Filter>02. Obj\06. UI\06. WndUI\03. SkillWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusWnd.cpp">
+      <Filter>02. Obj\06. UI\06. WndUI\00. StatusWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03. Manager\02. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>03. Manager\09. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>02. Obj\04. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopWnd.cpp">
+      <Filter>02. Obj\06. UI\06. WndUI\04. ShopWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>02. Obj\01. BattleUnit\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>02. Obj\03. Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="Jelly.cpp">
+      <Filter>02. Obj\01. BattleUnit\01. Monster\00. Jelly</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>02. Obj\06. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Damage.cpp">
+      <Filter>02. Obj\06. UI\07. Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>02. Obj\01. BattleUnit\00. Player\00. Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>02. Obj\05. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>02. Obj\05. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMgr.cpp">
+      <Filter>03. Manager\10. ItemMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>02. Obj\07, Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="PotionEffect.cpp">
+      <Filter>02. Obj\07, Effect\PotionEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillIcon.cpp">
+      <Filter>02. Obj\05. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>02. Obj\08. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectBuff.cpp">
+      <Filter>02. Obj\07, Effect\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectExtinction.cpp">
+      <Filter>02. Obj\07, Effect\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>01. Scene\01. MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>01. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleUnit.cpp">
+      <Filter>02. Obj\01. BattleUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueWolf.cpp">
+      <Filter>02. Obj\01. BattleUnit\01. Monster\02. BlueWolf</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterHPBar.cpp">
+      <Filter>02. Obj\06. UI\00. MiniGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Town1.cpp">
+      <Filter>01. Scene\02. Stage\00. Town1</Filter>
+    </ClCompile>
+    <ClCompile Include="Field0.cpp">
+      <Filter>01. Scene\02. Stage\04. Field0</Filter>
+    </ClCompile>
+    <ClCompile Include="Store0.cpp">
+      <Filter>01. Scene\02. Stage\01. Store0</Filter>
+    </ClCompile>
+    <ClCompile Include="Store1.cpp">
+      <Filter>01. Scene\02. Stage\02. Store1</Filter>
+    </ClCompile>
+    <ClCompile Include="Store2.cpp">
+      <Filter>01. Scene\02. Stage\03. Store2</Filter>
+    </ClCompile>
+    <ClCompile Include="Field3.cpp">
+      <Filter>01. Scene\02. Stage\05. Field3</Filter>
+    </ClCompile>
+    <ClCompile Include="EventWnd.cpp">
+      <Filter>02. Obj\06. UI\06. WndUI\05. EventWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMgr.cpp">
+      <Filter>03. Manager\11. MapMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr2.cpp">
+      <Filter>03. Manager\02. KeyMgr2</Filter>
+    </ClCompile>
+    <ClCompile Include="Etc.cpp">
+      <Filter>02. Obj\09. Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CoolEffect.cpp">
+      <Filter>02. Obj\07, Effect\CoolTime</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

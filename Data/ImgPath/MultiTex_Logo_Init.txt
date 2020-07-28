@@ -1,0 +1,16 @@
+Mouse|Attack|7|..\Texture\Mouse\Attack\000%d.png|100|FALSE|X|X
+Mouse|AttackClick|2|..\Texture\Mouse\AttackClick\000%d.png|100|FALSE|X|X
+Mouse|Catch|3|..\Texture\Mouse\Catch\000%d.png|100|FALSE|X|X
+Mouse|CatchClick|3|..\Texture\Mouse\CatchClick\000%d.png|100|FALSE|X|X
+Mouse|Chat|2|..\Texture\Mouse\Chat\Chat_%d.png|100|FALSE|X|X
+Mouse|Default|13|..\Texture\Mouse\Default\000%d.png|100|FALSE|X|X
+Mouse|DefaultClick|2|..\Texture\Mouse\DefaultClick\000%d.png|100|FALSE|X|X
+Mouse|Delay|16|..\Texture\Mouse\Delay\000%d.png|64|FALSE|X|X
+Mouse|DelayClick|2|..\Texture\Mouse\DelayClick\000%d.png|100|FALSE|X|X
+Mouse|Gate|4|..\Texture\Mouse\Gate\Gate%d.png|200|FALSE|X|X
+Mouse|Magic|9|..\Texture\Mouse\Magic\%d.png|100|FALSE|X|X
+Mouse|Skill|10|..\Texture\Mouse\Skill\000%d.png|100|FALSE|X|X
+Mouse|X|12|..\Texture\Mouse\X\000%d.png|100|FALSE|X|X
+Mouse|XClick|2|..\Texture\Mouse\XClick\000%d.png|100|FALSE|X|X
+ExitBtn|ExitBtn|2|..\Texture\UI\Logo\ExitBtn\%d.png|100|FALSE|X|X
+StartBtn|StartBtn|2|..\Texture\UI\Logo\StartBtn\%d.png|100|FALSE|X|X

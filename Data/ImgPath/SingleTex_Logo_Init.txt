@@ -1,0 +1,3 @@
+Loading|..\Texture\UI\Logo\Loading.png
+LoadingBar|..\Texture\UI\Logo\LoadingBar.png
+LOGO|..//Texture//UI//Logo//Logo.png

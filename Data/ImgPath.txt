@@ -1,0 +1,1 @@
+Gauge|Yellow|5|..\Texture\UI\Gauge\Yellow\%d.png|100|FALSE|X|X

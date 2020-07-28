@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. MainFrm">
+      <UniqueIdentifier>{626341bb-605f-43ee-89e5-de89fdf21b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. View">
+      <UniqueIdentifier>{80bcd874-2335-4529-b7a8-da0c086cd0aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{bc591f02-86bd-4133-b8e9-c692a87cddde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99. Default\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="99. Default\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="02. Mgr">
+      <UniqueIdentifier>{c42c8de2-c081-475d-9632-30eba115bfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\00. GraphicDev">
+      <UniqueIdentifier>{66c947ce-ba56-4270-8f93-378ec98d563d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Texture">
+      <UniqueIdentifier>{8938e803-4f2f-4d4e-ac9c-14a14a7f5503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Texture\00. Single">
+      <UniqueIdentifier>{38314603-5390-41d8-9174-5798708a49a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Texture\01. Multi">
+      <UniqueIdentifier>{e8960430-ecc9-45a8-8b9c-f110b4a6da07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\01. TextureMgr">
+      <UniqueIdentifier>{3c9d9bcf-b656-412c-96b4-106f45542ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object">
+      <UniqueIdentifier>{0fc58caf-5d6e-4e05-85ac-014716764a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. View\00. FormView">
+      <UniqueIdentifier>{5a11ff76-1e6b-4d00-a3e1-3530f9b44d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog">
+      <UniqueIdentifier>{640fc0a7-c53f-458c-9203-95b0712fc882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\00. MapTab">
+      <UniqueIdentifier>{4ddc08ae-4017-4070-94c9-ed4ba4cc1bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Etc">
+      <UniqueIdentifier>{b317c4b0-8a6c-4b4f-a0df-0dc77d6b1818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Etc\00. FileInfo">
+      <UniqueIdentifier>{2f7d73ad-dfe3-4774-b883-249a8c8e1b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Mgr\02. TimeMgr">
+      <UniqueIdentifier>{c6c9972b-33e5-4775-9fe4-5c3ba9a967ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\00. Obj">
+      <UniqueIdentifier>{a98b58a3-cef6-4108-84ba-1952becd8beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\01. HJ_Map">
+      <UniqueIdentifier>{2094564a-e512-41c9-a9e2-a5fcb7e1234d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Object\02. Sprite">
+      <UniqueIdentifier>{1085dab5-646f-4301-8c6f-92add8a9552d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\00. MapTab\TileInfo">
+      <UniqueIdentifier>{25082f93-008f-4cd2-8648-fe35b36529c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\02. SpriteTab">
+      <UniqueIdentifier>{48461c21-90fe-462f-ac75-ced408a4651e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\02. SpriteTab\TextureKeyDlg">
+      <UniqueIdentifier>{91390cbc-48b3-4467-ba84-ea6ba88f54ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\01. UnitTab">
+      <UniqueIdentifier>{fcc7bbee-2cf3-42f4-ae5b-eb1c5fc6b6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Dialog\03. PathFind">
+      <UniqueIdentifier>{b50e237c-67cd-4b8d-92b8-7ce97762cf2a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tool96.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool96Doc.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>00. MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool96View.h">
+      <Filter>01. View</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>01. View\00. FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>06. Etc\00. FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="HJ_Map.h">
+      <Filter>04. Object\01. HJ_Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTab.h">
+      <Filter>05. Dialog\00. MapTab</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteTab.h">
+      <Filter>05. Dialog\02. SpriteTab</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>04. Object\02. Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr_Tool.h">
+      <Filter>02. Mgr\02. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr_Tool.h">
+      <Filter>02. Mgr\01. TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicDev_Tool.h">
+      <Filter>02. Mgr\00. GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture_Tool.h">
+      <Filter>03. Texture\00. Single</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture_Tool.h">
+      <Filter>03. Texture\01. Multi</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Tool.h">
+      <Filter>03. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>04. Object\00. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="TileInfo.h">
+      <Filter>05. Dialog\00. MapTab\TileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTab.h">
+      <Filter>05. Dialog\01. UnitTab</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureKeyDlg.h">
+      <Filter>05. Dialog\02. SpriteTab\TextureKeyDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFind.h">
+      <Filter>05. Dialog\03. PathFind</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tool96.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool96Doc.cpp">
+      <Filter>99. Default\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>00. MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool96View.cpp">
+      <Filter>01. View</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>01. View\00. FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>06. Etc\00. FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="HJ_Map.cpp">
+      <Filter>04. Object\01. HJ_Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteTab.cpp">
+      <Filter>05. Dialog\02. SpriteTab</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>04. Object\02. Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTab.cpp">
+      <Filter>05. Dialog\00. MapTab</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr_Tool.cpp">
+      <Filter>02. Mgr\02. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr_Tool.cpp">
+      <Filter>02. Mgr\01. TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicDev_Tool.cpp">
+      <Filter>02. Mgr\00. GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture_Tool.cpp">
+      <Filter>03. Texture\00. Single</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture_Tool.cpp">
+      <Filter>03. Texture\01. Multi</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Tool.cpp">
+      <Filter>03. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>04. Object\00. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="TileInfo.cpp">
+      <Filter>05. Dialog\00. MapTab\TileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTab.cpp">
+      <Filter>05. Dialog\01. UnitTab</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureKeyDlg.cpp">
+      <Filter>05. Dialog\02. SpriteTab\TextureKeyDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFind.cpp">
+      <Filter>05. Dialog\03. PathFind</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool96.rc">
+      <Filter>99. Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool96.rc2">
+      <Filter>99. Default\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool96Doc.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool96.ico">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99. Default\소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

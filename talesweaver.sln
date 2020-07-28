@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{C3AC2248-B983-4F2C-BCCB-DA8DD091A7B4}"
+	ProjectSection(SolutionItems) = preProject
+		Headers\Function.h = Headers\Function.h
+		Headers\Include.h = Headers\Include.h
+		Headers\Macro.h = Headers\Macro.h
+		Headers\Struct.h = Headers\Struct.h
+		Headers\Typedef.h = Headers\Typedef.h
+		Headers\Value.h = Headers\Value.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tool96", "Tool96\Tool96.vcxproj", "{2E4971B3-C49C-49D4-B1B0-740DA691B56F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C63A2A21-F978-442A-8816-1AA30532BA01}"
+	ProjectSection(SolutionItems) = preProject
+		Data\ImgPath\MultiTex_Logo_Init.txt = Data\ImgPath\MultiTex_Logo_Init.txt
+		Data\ImgPath\MultiTex_Logo_Thread.txt = Data\ImgPath\MultiTex_Logo_Thread.txt
+		Performance1.psess = Performance1.psess
+		Data\ImgPath\SingleTex_Logo_Init.txt = Data\ImgPath\SingleTex_Logo_Init.txt
+		Data\ImgPath\SingleTex_Logo_Thread.txt = Data\ImgPath\SingleTex_Logo_Thread.txt
+		TextFile1.txt = TextFile1.txt
+		Client\단축키.txt = Client\단축키.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{B470D48F-E428-402B-83A6-E0C92B69C15F}"
+EndProject
+Global
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E4971B3-C49C-49D4-B1B0-740DA691B56F}.Debug|x64.ActiveCfg = Debug|x64
+		{2E4971B3-C49C-49D4-B1B0-740DA691B56F}.Debug|x64.Build.0 = Debug|x64
+		{2E4971B3-C49C-49D4-B1B0-740DA691B56F}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E4971B3-C49C-49D4-B1B0-740DA691B56F}.Debug|x86.Build.0 = Debug|Win32
+		{2E4971B3-C49C-49D4-B1B0-740DA691B56F}.Release|x64.ActiveCfg = Release|x64
+		{2E4971B3-C49C-49D4-B1B0-740DA691B56F}.Release|x64.Build.0 = Release|x64
+		{2E4971B3-C49C-49D4-B1B0-740DA691B56F}.Release|x86.ActiveCfg = Release|Win32
+		{2E4971B3-C49C-49D4-B1B0-740DA691B56F}.Release|x86.Build.0 = Release|Win32
+		{B470D48F-E428-402B-83A6-E0C92B69C15F}.Debug|x64.ActiveCfg = Debug|x64
+		{B470D48F-E428-402B-83A6-E0C92B69C15F}.Debug|x64.Build.0 = Debug|x64
+		{B470D48F-E428-402B-83A6-E0C92B69C15F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B470D48F-E428-402B-83A6-E0C92B69C15F}.Debug|x86.Build.0 = Debug|Win32
+		{B470D48F-E428-402B-83A6-E0C92B69C15F}.Release|x64.ActiveCfg = Release|x64
+		{B470D48F-E428-402B-83A6-E0C92B69C15F}.Release|x64.Build.0 = Release|x64
+		{B470D48F-E428-402B-83A6-E0C92B69C15F}.Release|x86.ActiveCfg = Release|Win32
+		{B470D48F-E428-402B-83A6-E0C92B69C15F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
